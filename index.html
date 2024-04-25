@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <canvas id="canvas"></canvas>
+  </body>
+
+  <script src="
+  https://cdn.jsdelivr.net/npm/jsmpeg-player@3.0.3/build/jsmpeg-player.min.js
+  "></script>
+  <script type="text/javascript">
+    player = new JSMpeg.Player("ws://localhost:9999", {
+      canvas: document.getElementById("canvas"), // Canvas should be a canvas DOM element
+    });
+  </script>
+</html>
